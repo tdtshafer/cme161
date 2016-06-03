@@ -1,0 +1,20 @@
+#dcjs_baseball_viz body {
+  font: 10px sans-serif;
+}
+
+#dcjs_baseball_viz .bar rect {
+  fill: steelblue;
+  shape-rendering: crispEdges;
+}
+
+#dcjs_baseball_viz .bar text {
+  fill: #fff;
+}
+
+#dcjs_baseball_viz .axis path,
+#dcjs_baseball_viz .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
